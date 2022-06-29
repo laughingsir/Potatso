@@ -35,10 +35,12 @@ target "Potatso" do
     pod 'Reveal-iOS-SDK', '~> 1.6.2', :configurations => ['Debug']
     pod 'ICSPullToRefresh', '~> 0.6'
     pod 'ISO8601DateFormatter', '~> 0.8'
-    pod 'Alamofire'
-    pod 'ObjectMapper'
+    pod 'Alamofire', '~> 4.2.0'
+    pod 'ObjectMapper', '~> 2.2.2'
+#    pod 'AlamofireObjectMapper', '~> 5.0.0'
     pod 'CocoaLumberjack/Swift', '~> 3.0.0'
     pod 'PSOperations'
+    pod 'Crashlytics', '~> 3.10.7'
     tunnel
     library
     socket
